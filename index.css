@@ -1,0 +1,204 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html, body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      background-color: #f5f5f5;
+}
+
+div.body-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+      color: #2e2d2d;
+}
+
+div.center-container {
+      width: 600px;
+      height: auto;
+      background-color: #ffffff;
+      border: solid 1px #bdbcbc;
+      border-radius: 5px;
+      padding: 50px 35px;
+}
+
+div.header-container h2 {
+      text-align: center;
+}
+
+div.header-container h3 {
+      text-align: center;
+      padding: 10px 0 0 0;
+}
+
+div.header-container p {
+      padding: 30px 0 0 0;
+      font-size: 0.9rem;
+      line-height: 1.5rem;
+}
+
+div.mainer-container p.subtitle {
+      font-weight: bolder;
+      font-size: 0.9rem;
+      padding: 30px 0 0 0;
+}
+
+div.informations {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 15px 0 0 0;
+}
+
+div.informations p {
+      padding: 0 0 0 10px;
+      font-size: 0.9rem;
+}
+
+p.tritext {
+      font-size: 0.9rem;
+      margin: 20px 0 0 0;
+}
+
+p.redtext {
+      font-size: 0.9rem;
+      margin: 20px 0 0 0;
+      color: red;
+      font-weight: bolder;
+}
+
+div.inputform {
+      width: 100%;
+      height: auto;
+      margin: 20px 0 0 0;
+}
+
+div.inputform label {
+      font-size: 0.9rem;
+}
+
+div.inputform label b {
+      color: red;
+      font-size: 1rem;
+}
+
+div.inputform input[type="text"],
+div.inputform input[type="email"],
+div.inputform input[type="date"],
+div.inputform input[type="number"] {
+      width: 100%;
+      height: 35px;
+      border: none;
+      border-bottom: solid 1px grey;
+      outline: none;
+      padding: 0 0 0 10px;
+      font-weight: bolder;
+      font-size: 0.9rem;
+}
+
+div.checkflex {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 15px 0 0 0;
+}
+
+div.checkflex input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+}
+
+div.checkflex label {
+      padding: 0 0 0 10px;
+}
+
+div.footer-container {
+      margin: 50px 0 0 0;
+}
+
+div.footer-container p {
+      font-size: 0.9rem;
+}
+
+div.footer-container p b {
+      font-size: 0.9rem;
+      font-weight: bolder;
+      text-decoration: underline;
+      color: #2e2d2d;
+}
+
+div.footer-container p.access {
+      margin: 30px 0 0 0;
+}
+
+div.footer-container p.access b {
+      text-decoration: none;
+      color: red;
+      font-size: 1rem;
+}
+
+div.accessvalid {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 20px 0 0 0;
+}
+
+div.accessvalid input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+}
+
+div.accessvalid label {
+      font-size: 0.9rem;
+      padding: 0 0 0 10px;
+}
+
+p.subaccess {
+      padding: 10px 0 0 28px;
+}
+
+div.download {
+      width: 100%;
+      height: auto;
+      margin: 50px 0 0 0;
+}
+
+div.download button {
+      width: 100%;
+      height: 45px;
+      background-color: rgb(112, 112, 245);
+      font-weight: bolder;
+      color: white;
+      font-size: 0.8rem;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+div.download button:hover {
+      background: rgb(77, 77, 226);
+}
+
+div.download button b {
+      padding: 0 0 0 10px;
+}
+
+@media screen and (max-width:600px) {
+      div.center-container {
+            width: 95%;
+      }
+}
